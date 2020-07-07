@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Lemonada:wght@300&display=swap');
+
+*{
+  font-family: 'Jost', sans-serif;
+}
+/* body {
+  font-family: 'Jost', sans-serif;
+  background-image: url("../images/back.png");
+ }
+ li{
+   font-family: 'Jost', sans-serif;
+ } */
+/* GALERIA ############################################ */
+
+.contenedor{
+  font-family: 'Jost', sans-serif;
+  position: absolute;
+  left: -20px;
+  top: 70vh;
+  /* right: auto;
+  bottom: auto; */
+  display: flex;
+  width: 300px;
+  max-width: 350px;
+  justify-content: flex-start;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.rayita{
+  width: 6px;
+  height: 45px;
+  /* margin-right: 10px; */
+  background-color: black;
+}
+
+.adentro{
+  text-align: left;
+  padding-left: 20px
+}
+
+/* PORTAFOLIO ############################################ */
+
+
+/* MENU ############################################### */
+.menu{
+  position: fixed;
+
+}
+
+.logo{
+  width: 9vw;
+  padding-left: 2vw;
+  position: absolute;
+  left: 0vw;
+  top: 12vh;
+  margin-left: 1vw;
+  margin-right: 1vh;
+  text-align:center;
+}
+
+.uele li {
+  list-style: none;
+  display: block;
+  padding-left: 1vw;
+}
+
+.uele{
+    padding-top: 36vh;
+}
+
+.uele a{
+  color: black;
+}
+
+.uele a:hover{
+  color: #8CC6DD;
+}
+
+.adentro{
+  display: block;
+  width: 850px
+}
+
+
+/* FOOTER ############################################### */
+footer{
+  text-align: center;
+  display:flex;
+
+  /* width: 100vw; */
+
+}
+
+
+.tira1{
+  width: 100%;
+}
+
+.tira2{
+  width: 100%;
+}
+
+.contenedor1{
+  width: 55%;
+  background-color: red;
+}
+
+.contenedor2{
+  width: 20%;
+  font-weight: bold;
+  background-color: blue;
+}
+
+.contenedor3{
+  width: 15vw;
+  background-color: yellow;
+}
+
+.textoFooter{
+  text-align: center;
+  display: block;
+}
+
+/* MEDIAS ######################################################################### */
+@media (max-width: 900px) {
+  .letrero{
+    display: none;
+    background-color: red;
+  }
+
+  .menu{
+    display: none;
+  }
+
+  .contenedor{
+    display: none;
+  }
+
+}

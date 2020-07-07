@@ -1,0 +1,66 @@
+.amarillo{
+  background-color: yellow;
+}
+
+.verde{
+  background-color: green;
+}
+.azul{
+  background-color: blue;
+}
+
+/* Galeria################ */
+
+.galeria{
+  text-align: center;
+}
+.fotoPam{
+    position: absolute;
+      width: 12vw;
+      position: absolute;
+      top: 15vh;
+      left: 15vw;
+    /* margin: 1vw,auto;
+
+    position: absolute;
+    left: 1vw;
+    top: 18vh;
+    font-weight: bold; */
+}
+
+/* PORTAFOLIO  */
+.letrero{
+  font-family: 'Jost', sans-serif;
+  background-color: yellow;
+  padding: 0 2vw;
+}
+
+.portfolio{
+  font-family: 'Jost', sans-serif;
+  width: 100%;
+  padding-left: 5vw;
+  /* position: absolute; */
+  display: block;
+  /* left: 8vw;
+  top: 0px; */
+  /* margin-left: 2vw; */
+  /* margin-right: 1vw; */
+
+}
+
+/* Tablets */
+@media (max-width: 900px) {
+  .letrero{
+    display: none;
+    background-color: red;
+  }
+
+}
+
+
+/* Movil */
+/* @media (max-width: 500px) {
+  .portfolio{
+    background-color: blue;
+  }
+} */
